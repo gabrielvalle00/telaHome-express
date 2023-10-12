@@ -1,0 +1,154 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/*navibar__________________________________________________________________________________________________________________*/
+
+#bar{
+    width: 50px;
+    height: 50px;
+}
+
+#container-fluid{
+    width: 50px;
+    height: 50px;
+}
+
+#navbar-brand{
+    width: 50px;
+    height: 50px;
+}
+
+#navbar bg-body-tertiary{
+    width: 50px;
+    height: 50px;
+}
+
+/*cabeçalho_________________________________________________________________________________________________________________*/
+header{
+    background-color: #900d8e; /*para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+    color: #fff; /*é utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+    padding: 25px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    text-align: center; /*definir o alinhamento horizontal do texto*/
+    border-bottom: 2px solid #dd1ba6; /*é um shortcut para definir diversas propriedades da borda de baixo (bottom) ao mesmo tempo*/
+}
+
+/*main galeria de produto___________________________________________________________________________________________________*/
+.container{
+    background-color: #0b0b0bc2; /*para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+    min-height: 30vh; /*definir a altura dos boxes*/
+    padding: 50px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+}
+
+/*Manga_______________________________________________________________________________________________________________________*/
+.card{
+    width: 31%; /*etermina a largura da área de conteúdo de um elemento*/
+    display: inline-block; /*faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha*/
+    margin: 1%; /*define a área de margem nos quatro lados do elemento*/
+    padding: 15px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    margin-bottom: 10px; /* define a margin area na parte inferior de um elemento*/
+}
+
+/*Trabalhando com imagem*/
+.product-image{
+    height: 400px; /*definir a altura dos boxes*/
+    width: 80%; /*determina a largura da área de conteúdo de um elemento*/
+    margin-bottom: 10px; /*define a margin area na parte inferior de um elemento*/
+    background-position: center; /*podemos definir a posição na qual a imagem será inserida*/
+    background-size: cover; /*especifica o tamanho das imagens de fundo*/
+}
+#img-01{
+    background-image: url('../img/img-01.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-02{
+    background-image: url('../img/img-02.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-03{
+    background-image: url('../img/img-03.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-04{
+    background-image: url('../img/img-04.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-05{
+    background-image: url('../img/img-05.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-06{
+    background-image: url('../img/img-06.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-07{
+    background-image: url('../img/img-07.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-08{
+    background-image: url('../img/img-08.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-09{
+    background-image: url('../img/img-09.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-10{
+    background-image: url('../img/img-10.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-11{
+    background-image: url('../img/img-11.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-12{
+    background-image: url('../img/img-12.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-13{
+    background-image: url('../img/img-13.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-14{
+    background-image: url('../img/img-14.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-15{
+    background-image: url('../img/img-15.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-16{
+    background-image: url('../img/img-16.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-17{
+    background-image: url('../img/img-17.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+#img-18{
+    background-image: url('../img/img-18.jpg'); /*define uma imagem de fundo para um elemento.*/
+}
+
+/*Descriçõe*/
+p{
+    color: #fff; /*é utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+}
+
+h3{
+    margin: 10px; /*define a área de margem nos quatro lados do elemento*/
+    color: #dc38b8; /* é utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+    border-left: 5px solid #900d8e; /*define todas as propriedades da border (en-US) esquerda de um elemento*/
+    padding-left: 7px; /*representa a distância no lado esquerdo do box*/
+    font-size: 24px; /*Através do font-size você pode regular o tamanho da fonte*/
+}
+
+.bold{
+    font-weight: bold; /*Através do font-size você pode regular o tamanho da fonte*/
+}
+
+.btn{
+    display: block; /*permite que você defina a maneira como determinado elemento HTML deve ser renderizado*/
+    width: 100%; /*determina a largura da área de conteúdo de um elemento*/
+    text-align: center; /*definir o alinhamento horizontal do texto*/
+    text-decoration: none; /*é usada para definir a formatação de underline , overline , line-through ou blink*/
+    text-transform: uppercase; /*destina-se a definir os efeitos de capitalização (maiúsculas, minúsculas) do texto*/
+    background-color: #dc38b8; /* para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+    color: #fff; /* é utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+    padding: 15px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    border-radius: 5px; /*destina-se a definir bordas arredondadas*/
+    transition: 1s; /*é um poderoso recurso para a criação de efeitos de animação nos elementos HTML*/
+}
+.btn:hover{
+    background-color: #5a0544; /* para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+}
+
+
+/*Rodapé________________________________________________________________________________________________________________________*/
+footer{
+    background-color: #900d8e; /* para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+    color: #000000; /* é utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+    border-top: 3px solid #dd1ba6; /*Aplica borda na parte superior de um elemento*/
+    padding: 80px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+}
