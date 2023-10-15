@@ -15,7 +15,17 @@ app.get('/', function (req, res) {
     res.sendFile(`${__dirname}/public/html/home.html`)
 })
 
-app.listen(3008, () => {
-    console.log('Servidor rodando na porta 3008');
+app.get('/contato', function (req, res) {
+    //     res.sendFile('/publico/html/index.html')//sendFile = carregar uma pagina
+    res.sendFile(`${__dirname}/public/html/contato.html`)
+})
+
+app.get('/cadastro', function (req, res) {
+    //     res.sendFile('/publico/html/index.html')//sendFile = carregar uma pagina
+    res.sendFile(`${__dirname}/public/html/cadastro.html`)
+})
+
+app.listen(8000, () => {
+    console.log('Servidor rodando na porta 8000');
 
 })
