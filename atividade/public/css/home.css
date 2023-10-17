@@ -16,8 +16,8 @@
 }
 
 .header{
-    background-color: #5a0544;
-    box-shadow: 2px 2px 4px yellow; 
+    background-color: #010101;
+    box-shadow: 2px 2px 4px #dd1ba6; 
     height: 56px;
     padding: 15px;
 }
@@ -46,15 +46,15 @@ header{
 }
 
 body{
-    background: #474a51;
+    background: #fff;
 }
 
 /*main galeria de produto___________________________________________________________________________________________________*/
 .container{
     margin-top: 250%;
     margin-right: 20%;
-    background-color: #000000; /*para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
-    min-height: 35vh; /*definir a altura dos boxes*/
+    background-color: #010101; /*para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+    min-height: 55vh; /*definir a altura dos boxes*/
     padding: 50px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
 }
 

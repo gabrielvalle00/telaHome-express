@@ -25,6 +25,12 @@ app.get('/cadastro', function (req, res) {
     res.sendFile(`${__dirname}/public/html/cadastro.html`)
 })
 
+//criando pagina de erro
+
+app.use(function (req ,res) {
+    res.status(404).sendFile(`${__dirname}/public/html/404.html`)
+})
+
 app.listen(8000, () => {
     console.log('Servidor rodando na porta 8000');
 
